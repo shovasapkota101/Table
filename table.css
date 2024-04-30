@@ -1,0 +1,23 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  th{
+    border: 1px solid;
+    padding: 8px;
+    text-align: left;
+    background-color: white;
+  }
+   
+  td {
+    border: 1px solid;
+    padding: 8px;
+    text-align: left;
+  }
+  /* Target even and odd rows to apply alternate colors */
+  tr:nth-child(odd) {
+    background-color: gray;
+  }
+  tr:nth-child(even) {
+    background-color: white;
+  }
